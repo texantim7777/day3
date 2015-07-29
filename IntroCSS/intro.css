@@ -28,11 +28,11 @@ input[type="submit"] {
     border: 1px solid #4479BA;
 }
 
-    input[type="submit"]:active {
-        background: blue;
-        color: lightgray;
-        border: 1px solid black;
-    }
+input[type="submit"]:active {
+    background: blue;
+    color: lightgray;
+    border: 1px solid black;
+}
 
 .form-input {
     width: 100%;
