@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="intro.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Simple Contact List Application</h1>
+    <div class="fancy-div form-div">
+        <form>
+            <label>
+                Name<br />
+                <input class="form-input" type="text" name="name" id="name" placeholder="Your name" />
+            </label>
+            <label>
+                Phone Number<br />
+                <input class="form-input" type="tel" name="number" id="number" placeholder="Your number" />
+            </label>
+            <label>
+                Email Address<br />
+                <input class="form-input" type="email" name="email" id="email" placeholder="Your Email" />
+            </label>
+            <label>
+                Street Address<br />
+                <textarea class="form-input" name="address" id="address"></textarea>
+            </label>
+            <label>
+                Group<br />
+                <select id="select-dropdown" class="form-input" name="group" id="group">
+                    <option>Friend</option>
+                    <option>Co-Worker</option>
+                    <option>Friend</option>
+                    <option>Mortal Enemy</option>
+                </select>
+            </label>
+            <input class="form-input" type="submit" value="Add to Contacts" />
+        </form>
+    </div>
+    <div class="fancy-div table-div">
+        <h3>Contacts</h3>
+        <hr />
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Group</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jonny Bagger</td>
+                        <td>206-555-5454</td>
+                        <td>jonnyb@gmail.com</td>
+                        <td>sme address</td>
+                        <td>Friend</td>
+                    </tr>
+                    <tr>
+                        <td>Cool Guy</td>
+                        <td>206-555-3141</td>
+                        <td>jonnyb@hotmail.com</td>
+                        <td>random address</td>
+                        <td>Friend</td>
+                    </tr>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>206-777-5656</td>
+                        <td>eric@codercamps.com</td>
+                        <td>some address</td>
+                        <td>Family</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div style="clear:both;"></div>
+</body>
+</html>

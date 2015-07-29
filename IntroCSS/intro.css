@@ -1,0 +1,89 @@
+﻿body {
+    background-color: lightblue;
+    font-family: Verdana, sans-serif;
+}
+
+label {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Order of precidence
+
+    #id => tag[attr="value"] => .class => tag
+
+*/
+
+#select-dropdown, input[type="submit"] {
+    width: 112%;
+}
+
+input[type="submit"] {
+    background: #4479BA;
+    border: none;
+    border: 1px solid #4479BA;
+}
+
+    input[type="submit"]:active {
+        background: blue;
+        color: lightgray;
+        border: 1px solid black;
+    }
+
+.form-input {
+    width: 100%;
+    margin: 10px 0 10px -10px;
+    padding: 10px 10px 10px 10px;
+}
+
+hr {
+    height: 10px;
+    border: solid black;
+    border-width: 3px 0 0 0;
+    border-radius: 20px;
+}
+
+th {
+    text-align: left;
+    border-bottom: 2px solid white;
+    background-color: white;
+}
+
+/*  
+            :nth-child(2n + 1)
+            CSS Counter:
+            0 : 2(0) + 1 = 1
+            1 : 2(1) + 1 = 3
+
+            Children
+            1 :D
+            2 :(
+            3 :D
+        */
+
+tr:nth-child(2n) {
+    background-color: white;
+}
+
+td, th {
+    line-height: 2em;
+    padding: 0px 20px /* 0px 20px */;
+}
+
+.fancy-div {
+    padding: 20px;
+}
+
+.form-div {
+    float: left;
+    margin-right: 12px;
+    border: 1px solid #84A9CF;
+}
+
+.table-div {
+    margin-left: 242px;
+}
